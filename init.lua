@@ -439,6 +439,7 @@ require('lazy').setup({
       indent = { enable = true, disable = { 'ruby' } },
     },
   },
+  { import = 'custom.plugins' },
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
