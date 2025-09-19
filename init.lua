@@ -1,6 +1,7 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = false
+vim.opt.guicursor = 'n-v-c-i:block'
 vim.o.number = true
 vim.o.mouse = 'a'
 vim.o.showmode = false
