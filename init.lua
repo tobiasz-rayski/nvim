@@ -387,6 +387,7 @@ require('lazy').setup({
     opts = {
       keymap = {
         preset = 'default',
+        ['<CR>'] = { 'accept', 'fallback' },
       },
 
       appearance = {
