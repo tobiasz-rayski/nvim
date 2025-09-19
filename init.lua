@@ -305,6 +305,8 @@ require('lazy').setup({
         ts_ls = {
           root_dir = vim.fn.getcwd(),
         },
+        pyright = {},
+        emmet_language_server = {},
       }
 
       for server_name, server_config in pairs(servers) do
