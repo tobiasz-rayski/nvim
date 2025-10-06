@@ -365,6 +365,7 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         htmldjango = { 'djlint' },
+        python = { 'black', 'isort' },
       },
     },
   },
