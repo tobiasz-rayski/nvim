@@ -318,6 +318,7 @@ require('lazy').setup({
         },
         pyright = {},
         emmet_language_server = {},
+        cssls = {},
       }
 
       for server_name, server_config in pairs(servers) do
